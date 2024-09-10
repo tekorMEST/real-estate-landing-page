@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav {
+    background-color: rgba(8, 8, 8, 0.808);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+
+}
+
+#nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+.list-items {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+header {
+    background-image: url(../assest/images/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    margin-right: 20%;
+    margin-left: 30%;
+    background-color: rgb(17, 16, 16);
+    padding: 40px;
+}
+
+input {
+    padding: 15px;
+    width: 50%;
+}
+
+.input-bg {
+
+    width: 60%;
+    background-color: black;
+
+}
+
+.input-lb {
+    width: 100px;
+    align-items: center;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 1opx;
+
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+.main-container h1 {
+    text-align: center;
+    font-size: 40;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.flex-container {
+    display: flex;
+    gap: 18px;
+}
+
+.text-container {
+    width: 50%;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: rgb(80, 75, 75);
+
+}
+
+.image-container {
+    width: 50%;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.image-container img {
+     width: 50%;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: rgb(80, 75, 75);
+}
+
+.text-container h2 {
+    margin-bottom: 1.5rem;
+}
+
+.text-container a {
+    color: red;
+}
+
+/* .item-card h1{
+
+
+} */
+
+
+.home-item {
+    width: 100%;
+}
+
+.home-item img {
+    width: 100%;
+}
+
+.home-item h1 {
+    text-align: left;
+    font-size: 40;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+
+.home-cards p {
+    text-align: left;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.home-cards {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    font-size: 20px;
+}
+
+.home-item a {
+    color: red;
+}
+
+.home-cards h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5 rem;
+}
+
+.home-item img {
+    height: 200px;
+}
+
+.home {
+    font-size: 50px;
+}
+
+.just {
+    padding: 10px;
+    font-style: italic;
+    background-color: rgb(66, 20, 20);
+
+}
+.meet{
+    padding: 20px;
+    background-color: rgba(87, 74, 74, 0.616);
+    margin: auto;
+    max-width: 70%;
+    height: fit-content;
+    gap: 10%;
+    margin-top: 10%;
+}
+.meet-me{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 12px;
+}
+.flow {
+    background-color: brown;
+    font-style: italic;
+    width: 30%;
+}
+.ab {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+
+
+}
+.picture{
+    display: flex;
+    justify-content: center;  
+    margin-left: 14%;
+    margin-top: 10%;
+}
+.gone{
+    width: 50%;
+    line-height: 1.6;
+    margin-bottom: 1.2rem;
+    color: rgb(80, 75, 75);
+}
+.def{
+    width: 70%;
+}
+.moe{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.sad{
+    padding: 90px 0 0;
+    background: #22242b;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.cee{
+    background-color: red;
+    padding: 18px;
+}
+
+.noo{
+padding: 18px;
+background-color: #22242b;
+display: flex;
+justify-content: left;
+}
+
+.pat{
+    display: block;
+    justify-content: center;
+
+}
